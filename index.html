@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first css website</title>
+    <style>
+       
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        
+        ul {
+            list-style-type: none; 
+            padding: 20px;
+            margin: 0;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+            width: 220px;
+        }
+
+       
+        li {
+            padding: 12px 16px;
+            margin-bottom: 8px;
+            background-color: #e3f2fd;
+            color: #0d47a1;
+            font-weight: bold;
+            border-radius: 6px;
+            text-align: center;
+            transition: 0.3s; 
+            cursor: pointer;
+        }
+
+        
+        li:last-child {
+            margin-bottom: 0;
+        }
+
+       
+        li:hover {
+            background-color: #1976d2;
+            color: #ffffff;
+            transform: scale(1.03); 
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,16 @@
+
+.blog{
+    background-color: aqua;
+    box-shadow: 20px 20px 5px black;
+}
+
+#minima{
+    color: brown;
+     border: 2px solid black;
+     padding: 50px;
+     width: 50px;
+}
+.selector{
+    background-color: blueviolet;
+    
+}
